@@ -18,5 +18,7 @@ from django.urls import include,path
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('ueditor/',include('DjangoUeditor.urls')),
     path('user/',include('user.urls')),
+    path('manager/',include('manager.urls')),
 ]
