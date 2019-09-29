@@ -34,15 +34,15 @@
         </div>
         <div class="text-center border2-width" style="border: 1px solid lightgray;margin: 10px;position: relative;padding: 5px">
             <img  src="/static/img/c1.jpg" class="img2-height img-responsive" >
-            <div class="img2-weight" style="position: absolute;bottom: 5px;z-index: 10;background-color: rgba(0,0,0,0.5);color: white" >Chrome浏览器</div>
+            <div class="img2-weight" style="position: absolute;bottom: 5px;z-index: 10;background-color: rgba(0,0,0,0.5);color: white;padding: 10px 0" >Chrome浏览器</div>
         </div>
         <div class="text-center border2-width" style="border: 1px solid lightgray;margin: 10px;position: relative;padding: 5px">
             <img  src="/static/img/c4.jpg" class="img2-height img-responsive" >
-            <div class="img2-weight" style="position: absolute;bottom: 5px;z-index: 10;background-color: rgba(0,0,0,0.5);color: white">Firefox浏览器</div>
+            <div class="img2-weight" style="position: absolute;bottom: 5px;z-index: 10;background-color: rgba(0,0,0,0.5);color: white;padding: 10px 0">Firefox浏览器</div>
         </div>
         <div class="text-center border2-width" style="border: 1px solid lightgray;margin: 10px;position: relative;padding: 5px">
             <img  src="/static/img/c13.jpg" class="img2-height img-responsive">
-            <div class="img2-weight" style="position: absolute;bottom: 5px;z-index: 10;background-color: rgba(0,0,0,0.5);color: white;">Safari浏览器</div>
+            <div class="img2-weight" style="position: absolute;bottom: 5px;z-index: 10;background-color: rgba(0,0,0,0.5);color: white;padding: 10px 0">Safari浏览器</div>
         </div>
     </div>
     <div class="col-xs-1"></div>
@@ -50,3 +50,22 @@
 </html>
 <script src="/static/js/jquery.min.js"></script>
 <script src="/static/js/bootstrap.js"></script>
+<script>
+    init()
+    function init() {
+        {#修改图片2宽度和框一致#}
+        var c=""
+        c=$(".border2-width").width()
+        {#$(".img2-height").css("width",c+"px")#}
+        $(".img2-weight").css("width",c+"px")
+    }
+
+
+        $(window).resize(function() {
+        {#修改图片2宽度和框一致#}
+        var c=""
+        c=$(".border2-width").width()
+        {#$(".img2-height").css("width",c+"px")#}
+        $(".img2-weight").css("width",c+"px")
+    });
+</script>
