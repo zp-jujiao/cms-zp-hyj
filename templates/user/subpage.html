@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Title</title>
+    <link rel="stylesheet" href="/static/css/bootstrap.css" >
+</head>
+<body>
+    <div class="container-fluid" style="margin-bottom: 40px;padding: 0">
+        <div class="row">
+            {% include 'user-common/header.html' %}
+        </div>
+        {% include 'user-common/footer.html' %}
+        <div class="row">
+            <div class="col-xs-8"><!-- .weghiet -->
+                <div class="row" style="border-bottom: 2px solid lightgray">
+                    <div class="col-sm-3 text-center">
+                        <img src="/static/img/a1.jpg" alt="inimgsmall">
+                    </div>
+                    <div class="col-sm-9 text-left">
+                        <h4 style="padding:20px 0 0px 0"><a href="#">TV host’s hand impaled on nail in failed magic trick</a></h4>
+                        <p style="padding:0 0 10px 0">哦都是金佛山的家公司的囧傻吊港囧十多家公司对接公司递交给哦时间大概哦司机都给十多个敢死队</p>
+                        <span class="post-date">Posted On July 22, 2016</span>
+                        <span class="glyphicon glyphicon-education" style="color: #5bc0de">100</span>
+                    </div>
+                </div><!-- /.weghiet --><!-- .weghiet -->
+                <div class="row" style="border-bottom: 2px solid lightgray">
+                    <div class="col-sm-3 text-center">
+                        <img src="/static/img/a2.jpg" alt="inimgsmall3">
+                    </div>
+                    <div class="col-sm-9 text-left">
+                        <h4 style="padding:20px 0 0px 0"><a href="#">Five ugly truths about Gilmore Girls </a></h4>
+                        <p style="padding:0 0 10px 0">哦都是金佛山的家公司的囧傻吊港囧十多家公司对接公司递交给哦时间大概哦司机都给十多个敢死队</p>
+                        <span class="post-date">Posted On December 22, 2016</span>
+                        <span class="glyphicon glyphicon-education" style="color: #5bc0de">100</span>
+                    </div>
+                </div><!-- /.weghiet --><!-- .weghiet -->
+                <div class="row" style="border-bottom: 2px solid lightgray">
+                    <div class="col-sm-3 text-center">
+                        <img src="/static/img/a3.jpg" alt="inimgsmall3">
+                    </div>
+                    <div class="col-sm-9 text-left">
+                        <h4 style="padding:20px 0 0px 0"><a href="#">One more time? Federer’s golden opportunity</a></h4>
+                        <p style="padding:0 0 10px 0">哦都是金佛山的家公司的囧傻吊港囧十多家公司对接公司递交给哦时间大概哦司机都给十多个敢死队</p>
+                        <span class="post-date">Posted On December 22, 2016</span>
+                        <span class="glyphicon glyphicon-education" style="color: #5bc0de">100</span>
+                    </div>
+                </div><!-- /.weghiet --><!-- .weghiet -->
+                <div class="row" style="border-bottom: 2px solid lightgray">
+                    <div class="col-sm-3 text-center">
+                        <img src="/static/img/a4.jpg" alt="inimgsmall4">
+                    </div>
+                    <div class="col-sm-9 text-left">
+                        <h4 style="padding:20px 0 0px 0"><a href="#">Bullied by wedding guests over her dress</a></h4>
+                        <p style="padding:0 0 10px 0">哦都是金佛山的家公司的囧傻吊港囧十多家公司对接公司递交给哦时间大概哦司机都给十多个敢死队</p>
+                        <span class="post-date">Posted On December 22, 2016</span>
+                        <span class="glyphicon glyphicon-education" style="color: #5bc0de">100</span>
+                    </div>
+                </div><!-- /.weghiet --><!-- .weghiet -->
+            </div>
+            {% include 'user-common/left.html' %}
+        </div>
+    </div>
+</body>
+</html>
+<script src="/static/js/jquery.min.js"></script>
+<script src="/static/js/bootstrap.js"></script>
+<script>
+    init()
+    function init() {
+        {#修改图片2宽度和框一致#}
+        var c=""
+        c=$(".border2-width").width()
+        {#$(".img2-height").css("width",c+"px")#}
+        $(".img2-weight").css("width",c+"px")
+    }
+
+    {#侦听浏览器窗口变化#}
+    $(window).resize(function() {
+        {#修改图片2宽度和框一致#}
+        var c=""
+        c=$(".border2-width").width()
+        {#$(".img2-height").css("width",c+"px")#}
+        $(".img2-weight").css("width",c+"px")
+    });
+</script>

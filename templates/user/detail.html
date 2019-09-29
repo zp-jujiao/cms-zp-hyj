@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Title</title>
+    <link rel="stylesheet" href="/static/css/bootstrap.css" >
+</head>
+<style>
+    .back{
+        background-color: black;
+    }
+    .left-list{
+        overflow:hidden; /*超出的部分隐藏起来。*/
+        white-space:nowrap;/*不显示的地方用省略号...代替*/
+        text-overflow:ellipsis;/* 支持 IE */
+    }
+    .carousel-caption{
+        bottom: 0;
+    }
+    .tab-h2 {
+        font-size:20px;
+    }
+
+    .tab-p {
+        font-size: 15px;
+    }
+    @media (min-width: 768px) {
+        .tab-h2 {
+            font-size: 22px;
+        }
+        .tab-p {
+            font-size: 16px;
+        }
+    }
+    @media (min-width: 992px) {
+        .tab-h2 {
+            font-size:26px;
+        }
+        .tab-p {
+            font-size: 17px;
+        }
+    }
+    {#.container-fluid{#}
+    {#    padding-left: 0px;#}
+    {#    padding-right: 0px;#}
+    {# }#}
+</style>
+<body>
+    <div class="container-fluid" style="margin-bottom: 40px;padding: 0">
+        <div class="row">
+            {% include 'user-common/header.html' %}
+        </div>
+        {% include 'user-common/footer.html' %}
+        <div class="row">
+            <div class="col-xs-8" style="padding: 10px 60px">
+                <div class="h2">登陆付款就</div>
+                <div style="padding-left: 20px;font-size: 14px"><span>时间</span><span style="padding-left: 20px">来源：<span>撒旦</span></span></div>
+                <p></p>
+            </div>
+            {% include 'user-common/left.html' %}
+        </div>
+    </div>
+</body>
+</html>
+<script src="/static/js/jquery.min.js"></script>
+<script src="/static/js/bootstrap.js"></script>
+<script>
+    {#导航条的点击事件#}
+    {#$("#header-point li").click(function(){#}
+    {#    console.log(123)#}
+        {#$("#header-point li").css("background-color","")#}
+        {#$(this).css("background-color","black")#}
+    {#    $("#header-point li").removeClass()#}
+    {#    $(this).addClass("active")#}
+    {# })#}
+
+
+</script>
