@@ -24,7 +24,7 @@
                         <span class="post-date">Posted On July 22, 2016</span>
                         <span class="glyphicon glyphicon-education" style="color: #5bc0de">100</span>
                     </div>
-                </div><!-- /.weghiet --><!-- .weghiet -->
+                </div>
                 <div class="row" style="border-bottom: 2px solid lightgray">
                     <div class="col-sm-3 text-center">
                         <img src="/static/img/a2.jpg" alt="inimgsmall3">
@@ -35,7 +35,7 @@
                         <span class="post-date">Posted On December 22, 2016</span>
                         <span class="glyphicon glyphicon-education" style="color: #5bc0de">100</span>
                     </div>
-                </div><!-- /.weghiet --><!-- .weghiet -->
+                </div>
                 <div class="row" style="border-bottom: 2px solid lightgray">
                     <div class="col-sm-3 text-center">
                         <img src="/static/img/a3.jpg" alt="inimgsmall3">
@@ -46,7 +46,7 @@
                         <span class="post-date">Posted On December 22, 2016</span>
                         <span class="glyphicon glyphicon-education" style="color: #5bc0de">100</span>
                     </div>
-                </div><!-- /.weghiet --><!-- .weghiet -->
+                </div>
                 <div class="row" style="border-bottom: 2px solid lightgray">
                     <div class="col-sm-3 text-center">
                         <img src="/static/img/a4.jpg" alt="inimgsmall4">
@@ -57,7 +57,20 @@
                         <span class="post-date">Posted On December 22, 2016</span>
                         <span class="glyphicon glyphicon-education" style="color: #5bc0de">100</span>
                     </div>
-                </div><!-- /.weghiet --><!-- .weghiet -->
+                </div>
+                <div class="row">
+                    <div class="col-xs-offset-5">
+                        <ul class="pagination">
+                            <li><a href="#">&laquo;</a></li>
+                            <li><a href="#">1</a></li>
+                            <li><a href="#">2</a></li>
+                            <li><a href="#">3</a></li>
+                            <li><a href="#">4</a></li>
+                            <li><a href="#">5</a></li>
+                            <li><a href="#">&raquo;</a></li>
+                        </ul>
+                    </div>
+                </div>
             </div>
             {% include 'user-common/left.html' %}
         </div>
@@ -74,6 +87,23 @@
         c=$(".border2-width").width()
         {#$(".img2-height").css("width",c+"px")#}
         $(".img2-weight").css("width",c+"px")
+
+        var id
+        id=$("#header-point .active").data("name")
+        console.log(id)
+        $.ajax({
+			type:"get",
+			dataType:"json",
+            data:{
+			    id:id
+            },
+			url:"http://127.0.0.1:8000/user/subajax/",
+			success:function(data){
+				//处理接收过来的数据  作者的名字 赋值给标签
+                 console.log(data)
+                {#var div="<div class='row' style='border-bottom: 2px solid lightgray'><div class='col-sm-3 text-center'><img src='/static/img/a4.jpg' alt='inimgsmall4'></div><div class='col-sm-9 text-left'> <h4 style='padding:20px 0 0px 0'><a href='#'>"+data.title+"</a></h4> <p style='padding:0 0 10px 0'>哦都是金佛山的家公司的囧傻吊港囧十多家公司对接公司递交给哦时间大概哦司机都给十多个敢死队</p> <span class='post-date'>Posted On December 22, 2016</span><span class='glyphicon glyphicon-education' style='color: #5bc0de'>"+data.num+"</span></div></div>"#}
+			}
+		});
     }
 
     {#侦听浏览器窗口变化#}
@@ -84,4 +114,6 @@
         {#$(".img2-height").css("width",c+"px")#}
         $(".img2-weight").css("width",c+"px")
     });
+
+
 </script>

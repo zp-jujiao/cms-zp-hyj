@@ -22,10 +22,20 @@
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                   <ul class="nav navbar-nav" id="header-point">
-                    <li class="active" data-name = '1'><a href="#">首页</a></li>
-                    <li data-name = '2'><a href="#" >体育</a></li>
-                    <li data-name = '3'><a href="#" >科技</a></li>
-                    <li data-name = '4'><a href="#" >综合</a></li>
+                      {% if index == 0 %}
+                        <li data-name = '0' class="active"><a href="#" >首页</a></li>
+                      {% else %}
+                        <li data-name = '0'><a href="#" >首页</a></li>
+                      {% endif %}
+                      {% for item in menulist %}
+                          {% if item.id == index %}
+                            <li data-name = '{{ item.id }}' class="active"><a href="#" >{{ item.name }}</a></li>
+{#                    <li data-name = '3'><a href="#" >科技</a></li>#}
+{#                    <li data-name = '4'><a href="#" >综合</a></li>#}
+                          {% else %}
+                            <li data-name = '{{ item.id }}'><a href="#" >{{ item.name }}</a></li>
+                          {% endif %}
+                      {% endfor %}
                   </ul>
                 </div>
             </div><!-- /.container-fluid -->
@@ -44,11 +54,9 @@
         $("#header-point li").removeClass()
         $(this).addClass("active")
         var name = $(this).data('name');
-        console.log(name)
-        if (name==2){
-            $(window).attr('location','/user/detail/');
+        if (name==1){
+            $(window).attr('location','/user/subpage/');
         }
-
      })
 
 </script>
