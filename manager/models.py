@@ -1,4 +1,5 @@
 from django.db import models
+from datetime import datetime
 
 #用户登录注册
 class admin(models.Model):
@@ -23,6 +24,7 @@ class news(models.Model):
     title_font_color=models.CharField(max_length=10)#16进制的颜色标识
     thumb=models.CharField(max_length=30,null=True)
     num=models.IntegerField(max_length=11)
+    registtime=models.DateTimeField(default=datetime.now())
     class Meta:
         db_table = "news"
 
