@@ -39,6 +39,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'DjangoUeditor',
+    'manager',
+    'user',
 ]
 
 MIDDLEWARE = [
@@ -124,3 +126,15 @@ STATIC_URL = '/static/'
 STATICFILES_DIRS = (
     os.path.join(BASE_DIR, 'static'),
 )
+import pymysql         # 一定要添加这两行！
+pymysql.install_as_MySQLdb()
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.mysql',   # 数据库引擎
+        'NAME': 'group5',  # 数据库名，先前创建的
+        'USER': 'root',     # 用户名，可以自己创建用户
+        'PASSWORD': 'MyNewPwd123!@#',  # 密码
+        'HOST': '47.100.218.253',  # mysql服务所在的主机ip
+        'PORT': '3306',         # mysql服务端口
+    }
+}
