@@ -1,7 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="bc0b58a4-3357-4630-8dc2-216faa3002b4" name="Default Changelist" comment="" />
+=======
+    <list default="true" id="bc0b58a4-3357-4630-8dc2-216faa3002b4" name="Default Changelist" comment="">
+<<<<<<< HEAD
+      <change afterPath="$PROJECT_DIR$/templates/manager/manage-login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/cms.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/cms.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manager/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/manager/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manager/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/manager/views.py" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/templates/user-common/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/user-common/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/user/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/user/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/user/subpage.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/user/subpage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/user/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/user/views.py" afterDir="false" />
+>>>>>>> 10bda478d88aa2ca24cfa5040d8abcc1a0d699ac
+    </list>
+>>>>>>> f31a61bfcd55ee0651d97ce44e4f1ea75fc1b842
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +35,14 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
+        <entry file="file://$PROJECT_DIR$/manager/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="4" column="11" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="11" />
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+=======
         <entry file="file://$PROJECT_DIR$/cms/settings.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="174">
@@ -37,11 +63,19 @@
                 <element signature="n#style#0;n#span#1;n#div#1;n#div#3;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="e#8869#8876#1#HTML" expanded="true" />
                 <element signature="e#9043#9050#1#HTML" expanded="true" />
+>>>>>>> 10bda478d88aa2ca24cfa5040d8abcc1a0d699ac
               </folding>
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/user/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
+=======
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/user/views.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -50,11 +84,18 @@
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
+>>>>>>> 10bda478d88aa2ca24cfa5040d8abcc1a0d699ac
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
+        <entry file="file://$PROJECT_DIR$/templates/manager/manage-user.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-958">
+              <caret line="5" column="61" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="61" />
+=======
         <entry file="file://$PROJECT_DIR$/user/tests.py">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
@@ -64,20 +105,36 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="605">
               <caret line="75" column="11" selection-start-line="75" selection-start-column="11" selection-end-line="75" selection-end-column="11" />
+>>>>>>> 10bda478d88aa2ca24cfa5040d8abcc1a0d699ac
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
+        <entry file="file://$PROJECT_DIR$/templates/manager/manage-login.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="182">
+              <caret line="49" selection-start-line="49" selection-end-line="49" />
+=======
         <entry file="file://$PROJECT_DIR$/templates/user-common/header.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="73">
               <caret line="50" column="24" lean-forward="true" selection-start-line="50" selection-start-column="24" selection-end-line="50" selection-end-column="24" />
+>>>>>>> 10bda478d88aa2ca24cfa5040d8abcc1a0d699ac
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
+        <entry file="file://$PROJECT_DIR$/user/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+=======
         <entry file="file://$PROJECT_DIR$/templates/user/subpage.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="168">
@@ -88,6 +145,7 @@
                 <element signature="n#style#0;n#h4#0;n#div#1;n#div#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="e#3851#3858#1#HTML" expanded="true" />
                 <element signature="e#4235#4242#1#HTML" expanded="true" />
+>>>>>>> 10bda478d88aa2ca24cfa5040d8abcc1a0d699ac
               </folding>
             </state>
           </provider>
@@ -96,8 +154,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/manager/urls.py">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+            <state relative-caret-position="270">
+              <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+=======
             <state relative-caret-position="133">
               <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+>>>>>>> 10bda478d88aa2ca24cfa5040d8abcc1a0d699ac
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
               </folding>
@@ -108,8 +171,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/user/urls.py">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+            <state relative-caret-position="-28">
+              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+=======
             <state relative-caret-position="152">
               <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+>>>>>>> 10bda478d88aa2ca24cfa5040d8abcc1a0d699ac
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
               </folding>
@@ -117,13 +185,42 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/user/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="10" column="20" lean-forward="true" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+              <folding>
+                <element signature="e#0#35#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/extra_apps/DjangoUeditor/adminx.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
+        <entry file="file://$PROJECT_DIR$/extra_apps/DjangoUeditor/templates/ueditor.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="n#style#0;n#script#0;n#!!top" expanded="true" />
+=======
         <entry file="file://$PROJECT_DIR$/manager/models.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="95">
               <caret line="14" column="10" lean-forward="true" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="10" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
+>>>>>>> 10bda478d88aa2ca24cfa5040d8abcc1a0d699ac
               </folding>
             </state>
           </provider>
@@ -134,8 +231,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -162,7 +259,6 @@
         <option value="$PROJECT_DIR$/templates/user-common/footer.html" />
         <option value="$PROJECT_DIR$/templates/manager-common/manage-user.html" />
         <option value="$PROJECT_DIR$/cms/urls.py" />
-        <option value="$PROJECT_DIR$/manager/views.py" />
         <option value="$PROJECT_DIR$/extra_apps/DjangoUeditor/forms.py" />
         <option value="$PROJECT_DIR$/templates/manager/manage-user.html" />
         <option value="$PROJECT_DIR$/templates/user/detail.html" />
@@ -173,6 +269,20 @@
         <option value="$PROJECT_DIR$/venv/Lib/site-packages/django/db/backends/mysql/operations.py" />
         <option value="$PROJECT_DIR$/manager/models.py" />
         <option value="$PROJECT_DIR$/templates/user/home.html" />
+<<<<<<< HEAD
+        <option value="$PROJECT_DIR$/templates/manager/manage-homePage.html" />
+        <option value="$PROJECT_DIR$/templates/manager/manage-login.html" />
+        <option value="$PROJECT_DIR$/manager/urls.py" />
+        <option value="$PROJECT_DIR$/manager/views.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="230" />
+    <option name="y" value="21" />
+    <option name="width" value="1125" />
+    <option name="height" value="688" />
+=======
         <option value="$PROJECT_DIR$/templates/user-common/header.html" />
         <option value="$PROJECT_DIR$/manager/urls.py" />
         <option value="$PROJECT_DIR$/user/urls.py" />
@@ -186,6 +296,7 @@
     <option name="y" value="-10" />
     <option name="width" value="899" />
     <option name="height" value="625" />
+>>>>>>> 10bda478d88aa2ca24cfa5040d8abcc1a0d699ac
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -193,6 +304,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -203,6 +315,9 @@
             <path>
               <item name="cms" type="b2602c69:ProjectViewProjectNode" />
               <item name="cms" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
+              <item name="manager" type="462c0819:PsiDirectoryNode" />
+=======
               <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -210,16 +325,20 @@
               <item name="cms" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
               <item name="user" type="462c0819:PsiDirectoryNode" />
+>>>>>>> 10bda478d88aa2ca24cfa5040d8abcc1a0d699ac
             </path>
             <path>
               <item name="cms" type="b2602c69:ProjectViewProjectNode" />
               <item name="cms" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
+=======
               <item name="templates" type="462c0819:PsiDirectoryNode" />
               <item name="user-common" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cms" type="b2602c69:ProjectViewProjectNode" />
               <item name="cms" type="462c0819:PsiDirectoryNode" />
+>>>>>>> 10bda478d88aa2ca24cfa5040d8abcc1a0d699ac
               <item name="user" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -230,7 +349,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -273,7 +391,7 @@
       </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="launchJavascriptDebuger" value="false" />
@@ -302,12 +420,30 @@
       <workItem from="1569658213031" duration="2767000" />
       <workItem from="1569670097084" duration="2411000" />
       <workItem from="1569719041343" duration="18972000" />
+<<<<<<< HEAD
       <workItem from="1569805762816" duration="14629000" />
+=======
+<<<<<<< HEAD
+      <workItem from="1569805762816" duration="3891000" />
+      <workItem from="1569814884833" duration="845000" />
+      <workItem from="1569822111480" duration="953000" />
+      <workItem from="1569823093686" duration="9532000" />
+=======
+      <workItem from="1569805762816" duration="13901000" />
+>>>>>>> 10bda478d88aa2ca24cfa5040d8abcc1a0d699ac
+>>>>>>> f31a61bfcd55ee0651d97ce44e4f1ea75fc1b842
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="55532000" />
+=======
+<<<<<<< HEAD
+    <option name="totallyTimeSpent" value="56124000" />
+=======
+    <option name="totallyTimeSpent" value="54804000" />
+>>>>>>> f31a61bfcd55ee0651d97ce44e4f1ea75fc1b842
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -317,16 +453,33 @@
       <are-packages-shown value="true" />
       <is-autoscroll-to-source value="true" />
     </todo-panel>
+>>>>>>> 10bda478d88aa2ca24cfa5040d8abcc1a0d699ac
   </component>
   <component name="ToolWindowManager">
+<<<<<<< HEAD
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+=======
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+>>>>>>> f31a61bfcd55ee0651d97ce44e4f1ea75fc1b842
     <layout>
+<<<<<<< HEAD
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4963145" visible="true" weight="0.19288956" />
+=======
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4963145" visible="true" weight="0.17560321" />
+>>>>>>> 10bda478d88aa2ca24cfa5040d8abcc1a0d699ac
       <window_info id="Structure" order="1" sideWeight="0.5021097" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.5036855" side_tool="true" weight="0.23502722" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32956153" />
+<<<<<<< HEAD
       <window_info anchor="bottom" id="Run" order="2" weight="0.36402267" />
+=======
+<<<<<<< HEAD
+      <window_info anchor="bottom" id="Run" order="2" weight="0.24754098" />
+=======
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.36402267" />
+>>>>>>> 10bda478d88aa2ca24cfa5040d8abcc1a0d699ac
+>>>>>>> f31a61bfcd55ee0651d97ce44e4f1ea75fc1b842
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -335,7 +488,11 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3286119" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+<<<<<<< HEAD
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.34042552" />
+=======
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.3286119" />
+>>>>>>> 10bda478d88aa2ca24cfa5040d8abcc1a0d699ac
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -387,6 +544,8 @@
     <entry file="file://$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/php/config.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+<<<<<<< HEAD
+=======
     <entry file="file://$PROJECT_DIR$/extra_apps/DjangoUeditor/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
@@ -394,6 +553,7 @@
         </state>
       </provider>
     </entry>
+>>>>>>> 10bda478d88aa2ca24cfa5040d8abcc1a0d699ac
     <entry file="file://$PROJECT_DIR$/extra_apps/DjangoUeditor/settings.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -416,23 +576,59 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cms/urls.py">
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/templates/user-common/header.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        <state relative-caret-position="665">
+          <caret line="35" selection-start-line="35" selection-end-line="36" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/django/db/backends/mysql/operations.py">
+=======
+    <entry file="file://$PROJECT_DIR$/cms/urls.py">
+>>>>>>> 10bda478d88aa2ca24cfa5040d8abcc1a0d699ac
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="145" column="28" selection-start-line="145" selection-start-column="28" selection-end-line="145" selection-end-column="28" />
           <folding>
-            <element signature="e#627#659#0" expanded="true" />
+            <element signature="e#0#11#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/manager/views.py">
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/django/db/backends/mysql/base.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="10" column="57" selection-start-line="10" selection-start-column="57" selection-end-line="10" selection-end-column="57" />
+        <state relative-caret-position="152">
+          <caret line="35" column="1" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cms/settings.py">
+=======
+    <entry file="file://$PROJECT_DIR$/manager/views.py">
+>>>>>>> 10bda478d88aa2ca24cfa5040d8abcc1a0d699ac
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3840">
+          <caret line="128" selection-start-line="128" selection-end-line="129" selection-end-column="28" />
           <folding>
-            <element signature="e#0#34#0" expanded="true" />
+            <element signature="e#304#313#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cms/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="14" selection-start-column="14" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/user-common/left.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
         </state>
       </provider>
     </entry>
@@ -446,46 +642,111 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/user-common/left.html">
+    <entry file="file://$PROJECT_DIR$/templates/user/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-19">
-          <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+        <state relative-caret-position="-803">
+          <caret line="114" column="24" selection-start-line="114" selection-start-column="24" selection-end-line="114" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/user/subpage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="15" column="40" lean-forward="true" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/cms/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="20" column="14" lean-forward="true" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
+          <folding>
+            <element signature="e#627#659#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/urls.py">
+=======
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/django/db/backends/mysql/operations.py">
+>>>>>>> 10bda478d88aa2ca24cfa5040d8abcc1a0d699ac
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/manager/manage-homePage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/manager/manage-login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/manager/manage-user.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="38" column="24" selection-start-line="38" selection-start-column="24" selection-end-line="39" selection-end-column="34" />
+        <state relative-caret-position="-958">
+          <caret line="5" column="61" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="61" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/django/db/backends/mysql/operations.py">
+    <entry file="file://$PROJECT_DIR$/manager/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="145" column="28" selection-start-line="145" selection-start-column="28" selection-end-line="145" selection-end-column="28" />
+        <state relative-caret-position="270">
+          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
           <folding>
-            <element signature="e#0#11#0" expanded="true" />
+            <element signature="e#0#28#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/django/db/backends/mysql/base.py">
+    <entry file="file://$PROJECT_DIR$/user/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="35" column="1" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
+        <state relative-caret-position="90">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cms/__init__.py">
+    <entry file="file://$PROJECT_DIR$/extra_apps/DjangoUeditor/adminx.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="14" selection-start-column="14" selection-end-column="14" />
+          <caret selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extra_apps/DjangoUeditor/templates/ueditor.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#style#0;n#script#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extra_apps/DjangoUeditor/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="21" column="55" lean-forward="true" selection-start-line="21" selection-start-column="55" selection-end-line="21" selection-end-column="55" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/manager/models.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="120">
+          <caret line="4" column="11" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="11" />
+=======
         <state relative-caret-position="95">
           <caret line="14" column="10" lean-forward="true" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="10" />
           <folding>
@@ -525,14 +786,21 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
           <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+>>>>>>> 10bda478d88aa2ca24cfa5040d8abcc1a0d699ac
           <folding>
             <element signature="e#0#28#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/user/home.html">
+    <entry file="file://$PROJECT_DIR$/manager/views.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="-28">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
+=======
         <state relative-caret-position="38">
           <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
           <folding>
@@ -570,14 +838,25 @@
             <element signature="n#style#0;n#h4#0;n#div#1;n#div#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="e#3851#3858#1#HTML" expanded="true" />
             <element signature="e#4235#4242#1#HTML" expanded="true" />
+>>>>>>> 10bda478d88aa2ca24cfa5040d8abcc1a0d699ac
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/user/views.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="216">
           <caret line="34" column="49" selection-start-line="34" selection-start-column="49" selection-end-line="34" selection-end-column="49" />
+=======
+<<<<<<< HEAD
+        <state relative-caret-position="300">
+          <caret line="10" column="20" lean-forward="true" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+=======
+        <state relative-caret-position="244">
+          <caret line="34" column="30" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="30" />
+>>>>>>> 10bda478d88aa2ca24cfa5040d8abcc1a0d699ac
+>>>>>>> f31a61bfcd55ee0651d97ce44e4f1ea75fc1b842
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>

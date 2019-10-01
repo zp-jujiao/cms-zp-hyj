@@ -56,6 +56,13 @@
         var name = $(this).data('name');
         if (name==1){
             $(window).attr('location','/user/subpage/');
+        }else if (name==0) {
+            $(window).attr('location','/user/home/');
+        }else if (name==2){
+            $(window).attr('location','/user/subpage1/');
+        }
+        else if (name==3){
+            $(window).attr('location','/user/subpage2/');
         }
      })
 
